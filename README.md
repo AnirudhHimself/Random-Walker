@@ -9,6 +9,6 @@ Random walks let us model some stochastic events, like stock market prices or ge
 Looks pretty funky doesn't it? 
 
 ## Uniform Distribution
-The random walker decides where to move using a function that samples from a uniform distribution. If our random walker sampled from a different distribution, we could make the walker trend in a particular direction. A different distribution could be useful, for example, if we needed to model an event where we had some background information suggesting a particular. 
+The random walker decides where to move using a function that samples from a uniform distribution. If our random walker sampled from a different distribution, we could make the walker trend in a particular direction. A different distribution could be useful, for example, if we needed to model an event where we had some background information suggesting a bias in a direction. 
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/unform.gif "Uniform Distribution")
