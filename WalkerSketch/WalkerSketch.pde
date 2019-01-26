@@ -2,8 +2,8 @@
 // Class definition for the Random Walker 
 // object. From the Nature of Code
 class Walker {
-  int x = 0;
-  int y = 0;
+  float x = 0;
+  float y = 0;
   
   // Telling the computer how to build a walker object
   Walker() {
@@ -16,53 +16,11 @@ class Walker {
     stroke(0);
     point(x,y);
   }
-
-  // Randomly move up, down, left, right, or stay in one place
   void step() {
-    
-    int choice = int(random(8));
-    
-    // East
-    if (choice == 0) 
-    {
-      x++;
-    } 
-    // West
-    else if (choice == 1) 
-    {
-      x--;
-    } 
-    // North
-    else if (choice == 2) 
-    {
-      y++;
-    } 
-    // South
-    else if (choice == 3)
-    {
-      y--;
-    }
-    // North East
-    else if (choice == 4) {
-      y++;
-      x++;
-    }
-    // South East
-    else if (choice == 5) {
-      y--;
-      x++;
-    }
-    // North West
-    else if (choice == 6) {
-      y++;
-      x--;
-    }
-    // South West
-    else {
-      x--;
-      y--;
-    }
-    
+    float deltax = random(-1, 1);
+    float deltay = random(-1, 1);
+    x += deltax;
+    y += deltay;
     
     // Prevent our walker from leaving the screen
     x = constrain(x, 0, width - 1);
