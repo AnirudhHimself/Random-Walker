@@ -20,24 +20,49 @@ class Walker {
   // Randomly move up, down, left, right, or stay in one place
   void step() {
     
-    int choice = int(random(4));
+    int choice = int(random(8));
     
+    // East
     if (choice == 0) 
     {
       x++;
     } 
+    // West
     else if (choice == 1) 
     {
       x--;
     } 
+    // North
     else if (choice == 2) 
     {
       y++;
     } 
-    else 
+    // South
+    else if (choice == 3)
     {
       y--;
     }
+    // North East
+    else if (choice == 4) {
+      y++;
+      x++;
+    }
+    // South East
+    else if (choice == 5) {
+      y--;
+      x++;
+    }
+    // North West
+    else if (choice == 6) {
+      y++;
+      x--;
+    }
+    // South West
+    else {
+      x--;
+      y--;
+    }
+    
     
     // Prevent our walker from leaving the screen
     x = constrain(x, 0, width - 1);
