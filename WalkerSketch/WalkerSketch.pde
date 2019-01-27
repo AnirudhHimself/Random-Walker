@@ -28,6 +28,14 @@ class Walker {
   }
   
   // Random Walker Tends to the Right and Down
+  // P(Right) 
+  // 50%
+  // P(Left) 
+  // 10%
+  // P(Up)
+  // 10%
+  // P(Down)
+  // 30%
   void stepDownRight() {
     float rand = random(1);
     if(rand < 0.5) {
@@ -48,6 +56,15 @@ class Walker {
   }
   
   // Tends to the Right and Up
+  // P(Right) 
+  // 50%
+  // P(Left) 
+  // 10%
+  // P(Up)
+  // 30%
+  // P(Down)
+  // 10%
+  
   void stepUpRight() {
     float rand = random(1);
     if(rand < 0.5) {
