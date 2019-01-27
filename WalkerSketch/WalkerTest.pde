@@ -7,7 +7,7 @@ void setup() {
 }
 
 void draw() {
-  w.step();
+  w.stepDownRight();
   w.render();
 }
 

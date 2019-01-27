@@ -26,5 +26,45 @@ class Walker {
     x = constrain(x, 0, width - 1);
     y = constrain(y, 0, height - 1);
   }
+  
+  // Random Walker Tends to the Right and Down
+  void stepDownRight() {
+    float rand = random(1);
+    if(rand < 0.5) {
+      x += 1;
+    }
+    else if (rand < 0.6) {
+      x += -1;
+    }
+    else if (rand < 0.9) {
+      y += 1;  
+    }
+    else {
+      y += -1;
+    }
+    // Prevent our walker from leaving the screen
+    x = constrain(x, 0, width - 1);
+    y = constrain(y, 0, height - 1);
+  }
+  
+  // Tends to the Right and Up
+  void stepUpRight() {
+    float rand = random(1);
+    if(rand < 0.5) {
+      x += 1;
+    }
+    else if (rand < 0.6) {
+      x += -1;
+    }
+    else if (rand < 0.9) {
+      y += -1;  
+    }
+    else {
+      y += 1;
+    }
+    // Prevent our walker from leaving the screen
+    x = constrain(x, 0, width - 1);
+    y = constrain(y, 0, height - 1);
+  }
 }
   
