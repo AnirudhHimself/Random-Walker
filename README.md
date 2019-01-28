@@ -9,7 +9,7 @@ Random walks let us model random events, like stock market prices or genetic dri
 Looks pretty funky doesn't it? 
 
 ## Uniform Distribution
-The random walker decides where to move using a function that samples from a uniform distribution. If our random walker sampled from a different distribution, we could make the walker trend in a particular direction. A different distribution could be useful, for example, if we needed to model an event where we had some background information suggesting a bias in a direction. If we wanted to simulate heights of people a uniform distribution wouldn't be the best pick. More than likely, we want a normal distribution.
+The random walker decides where to move using a function that samples from a uniform distribution. If our random walker sampled from a different distribution, we could make the walker trend in a particular direction. A different distribution could be useful, for example, if we needed to model an event where we had some background information suggesting a bias in a direction. For example, if we wanted to simulate heights of people a uniform distribution wouldn't be the best pick. If we look around we see that everyone isn't roughly the same height. Rather a few people are very tall and a few people are very short and most people are close to an average height. That's why a sampling from a normal distribution might be a better pick.
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/unform.gif "Uniform Distribution")
 
