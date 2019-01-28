@@ -25,4 +25,4 @@ But let's see what happens after you invest in it.
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/TrendDown.gif "Trend Down")
 
-Wow! Looks like it wasn't worth buying was it? The trend line in this model goes down, on average. However since we don't know to what degree or how, we can insert the element of randomness into our program and see how it could run.
+Wow! Looks like it wasn't worth buying was it? The trend line in this model, on average, goes down. However since we don't know to what degree or how, we can insert the element of randomness into our program and see how it could run.
