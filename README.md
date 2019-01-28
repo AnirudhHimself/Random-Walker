@@ -16,13 +16,13 @@ The random walker decides where to move using a function that samples from a uni
 
 ## Another Example of a Random Walk
 
-Let's say we want to use a random walk to model the price of that hyped-up cryptocurrency before you invested in it. The price is going up, because of course it is. It might look something like this.
+Let's say we want to use a random walk to model the price of that hyped-up cryptocurrency before you invested in it. The price is going up, because of course it is. We know the process will trend up, just not to what degree or how. That's why our random walker provides a helpful visual. It might look something like this.
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/TrendUp.gif "Trend Up")
 
-We know the process will trend up, just not to what degree or how. 
+ 
 But let's see what happens after you invest in it. 
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/TrendDown.gif "Trend Down")
 
-Wow! Looks like it wasn't worth buying was it? The trend line in this model, on average, goes down. However since we don't know to what degree or how, we can insert the element of randomness into our program and see how it could run.
+Wow! Looks like it wasn't worth buying was it? The trend line in this model, on average, goes down. Since we don't know to what degree or how, we can insert the element of randomness into our program and see how it could run.
