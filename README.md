@@ -1,6 +1,6 @@
 # Random-Walker
 
-Random walks let us model some stochastic events, like stock market prices or genetic drift, which have random movement. According to Wikipedia, the greatest source in the world, they've been around since 1905. 
+Random walks let us model random events, like stock market prices or genetic drift, which have some amount of unpredictable movement. According to Wikipedia, the greatest source in the world, they've been around since 1905. 
 
 ## Result
 
@@ -20,8 +20,9 @@ Let's say we want to use a random walk to model the price of that hyped-up crypt
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/TrendUp.gif "Trend Up")
 
+We know the process will trend up, just not to what degree or how. 
 But let's see what happens after you invest in it. 
 
 ![alt text](https://github.com/AnirudhHimself/Random-Walker/blob/master/TrendDown.gif "Trend Down")
 
-Wow! Looks like it wasn't worth buying was it?
+Wow! Looks like it wasn't worth buying was it? The trend line in this model goes down, on average. However since we don't know to what degree or how, we can insert the element of randomness into our program and see how it could run.
